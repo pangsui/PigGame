@@ -157,6 +157,11 @@ document.querySelector('.play').addEventListener('click', function() {
     document.querySelector('.instructions').style.display = 'block';
 });
 
+document.querySelector('.hide-instructions').addEventListener('click', function() {
+    document.querySelector('.instructions').style.display = 'none';
+});
+
+
 
 
 
